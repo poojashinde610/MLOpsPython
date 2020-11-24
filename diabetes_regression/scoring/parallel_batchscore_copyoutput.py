@@ -37,7 +37,6 @@ def parse_args():
     parser.add_argument("--scoring_datastore_key", type=str,
                         default=None)
     parser.add_argument("--scoring_output_filename", type=str, default=None)
-
     return parser.parse_args()
 
 
